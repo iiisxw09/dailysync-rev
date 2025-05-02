@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     #  每6小时检查一次
-    - cron: "0 */1 * * *"
+    - cron: "40 0 * * *"
+    - cron: "0 2 * * *"
 
 env:
   # please change to your own config.
